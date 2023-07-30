@@ -23,5 +23,12 @@
     <color name="purple_2">#FF301934</color>
     <color name="purple_3">#FF915F6D</color>
     <color name="purple_4">#FF877BAE</color>
-    <color name="purple_5">#FFDE978F</color>d
+    <color name="purple_5">#FFDE978F</color>
+    <color name="purple_6">#FF2B2F6C</color>
+    <color name="purple_7">#FF1FA3D4</color>
+    <color name="purple_8">#FF3D5A80</color>
+    <color name="purple_9">#033373</color>
+    <color name="purple_10">#58CFB3</color>
+    <color name="purple_11">#9A0A48</color>
+    <color name="purple_12">#E35A42</color>
 </resources>
