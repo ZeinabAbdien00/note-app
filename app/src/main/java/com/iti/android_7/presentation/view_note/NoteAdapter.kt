@@ -27,11 +27,21 @@ class NoteAdapter(val dao: NoteDAO?, val navController: NavController, val conte
     val colorList = arrayOf(
         "R.color.dark_base",
         "R.color.base",
+        "R.color.purple_1",
         "R.color.purple_2",
         "R.color.purple_3",
         "R.color.purple_4",
         "R.color.purple_5",
+        "R.color.purple_6",
+        "R.color.purple_7",
+        "R.color.purple_8",
+        "R.color.purple_9",
+        "R.color.purple_10",
+        "R.color.purple_11",
+        "R.color.purple_12",
+        "R.color.base_black",
         "R.color.purple_200",
+        "R.color.dark_gray",
     )
 
     inner class NoteViewHolder(binding: NoteRowBinding) : ViewHolder(binding.root) {
@@ -62,12 +72,22 @@ class NoteAdapter(val dao: NoteDAO?, val navController: NavController, val conte
 
                 "R.color.dark_base" -> R.color.dark_base
                 "R.color.base" -> R.color.base
+                "R.color.purple_1" -> R.color.purple_1
                 "R.color.purple_2" -> R.color.purple_2
                 "R.color.purple_3" -> R.color.purple_3
                 "R.color.purple_4" -> R.color.purple_4
                 "R.color.purple_5" -> R.color.purple_5
+                "R.color.purple_6" -> R.color.purple_6
+                "R.color.purple_7" -> R.color.purple_7
+                "R.color.purple_8" -> R.color.purple_8
+                "R.color.purple_9" -> R.color.purple_9
+                "R.color.purple_10" -> R.color.purple_10
+                "R.color.purple_11" -> R.color.purple_11
+                "R.color.purple_12" -> R.color.purple_12
                 "R.color.purple_200" -> R.color.purple_200
-                else -> R.color.base_black
+                "R.color.dark_gray" -> R.color.dark_gray
+                "R.color.base_black" -> R.color.base_black
+                else -> R.color.black
             }
 
             view.setCardBackgroundColor(ContextCompat.getColor(context, background))
@@ -83,7 +103,7 @@ class NoteAdapter(val dao: NoteDAO?, val navController: NavController, val conte
         }
 
         private fun getRandomColorFromList(colorList: Array<String>): String {
-            return colorList[Random.nextInt(colorList.size)].toString()
+            return colorList[Random.nextInt(colorList.size)]
         }
 
 

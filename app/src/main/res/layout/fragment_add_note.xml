@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/light_white"
     android:padding="16dp"
     tools:context=".presentation.add_note.AddNoteFragment">
 
@@ -15,7 +14,7 @@
         android:layout_marginTop="16dp"
         android:fontFamily="@font/comfortaa_bold"
         android:gravity="center_horizontal"
-        android:text="Add New Note"
+        android:text="@string/add_new_note"
         android:textColor="@color/base"
         android:textSize="30sp"
         android:textStyle="bold"
@@ -28,7 +27,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:fontFamily="@font/comfortaa"
-        android:hint="Enter your note title"
+        android:hint="@string/enter_your_note_title"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/lbNote" />
 
@@ -38,7 +37,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:hint="Enter your note"
+        android:hint="@string/enter_your_note"
         android:fontFamily="@font/comfortaa"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/et_note_title" />
@@ -47,13 +46,12 @@
         android:id="@+id/btnSaveNote"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="16dp"
-        android:text="Save Note"
+        android:layout_marginTop="32dp"
+        android:text="@string/save_note"
         android:textAllCaps="false"
         android:textColor="@color/light_white"
         app:backgroundTint="@color/base"
         app:layout_constraintTop_toBottomOf="@id/etNoteText"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@id/etNoteText"
         app:layout_constraintStart_toStartOf="@id/etNoteText" />
 

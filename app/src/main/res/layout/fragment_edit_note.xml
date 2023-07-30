@@ -3,7 +3,6 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/light_white"
     android:padding="16dp">
 
     <TextView
@@ -46,14 +45,13 @@
         android:id="@+id/btn_update_note"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="16dp"
+        android:layout_marginTop="32dp"
         android:fontFamily="@font/comfortaa"
         android:text="@string/update_note"
         android:textAllCaps="false"
         android:textColor="@color/light_white"
         app:backgroundTint="@color/base"
         app:layout_constraintTop_toBottomOf="@id/et_update_note_text"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@id/et_update_note_text"
         app:layout_constraintStart_toStartOf="@id/et_update_note_text"/>
 
