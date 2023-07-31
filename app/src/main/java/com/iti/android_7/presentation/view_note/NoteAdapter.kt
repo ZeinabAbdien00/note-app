@@ -98,7 +98,12 @@ class NoteAdapter(val dao: NoteDAO?, val navController: NavController, val conte
 
             val deleteDrawable = ContextCompat.getDrawable(context, R.drawable.delete)
             DrawableCompat.setTint(deleteDrawable!!, ContextCompat.getColor(context, R.color.red))
-            deleteNote.setCompoundDrawablesRelativeWithIntrinsicBounds(null, deleteDrawable, null, null)
+            deleteNote.setCompoundDrawablesRelativeWithIntrinsicBounds(
+                null,
+                deleteDrawable,
+                null,
+                null
+            )
 
         }
 

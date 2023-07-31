@@ -37,8 +37,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:hint="@string/enter_your_note"
         android:fontFamily="@font/comfortaa"
+        android:hint="@string/enter_your_note"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/et_note_title" />
 
@@ -51,8 +51,8 @@
         android:textAllCaps="false"
         android:textColor="@color/light_white"
         app:backgroundTint="@color/base"
-        app:layout_constraintTop_toBottomOf="@id/etNoteText"
         app:layout_constraintEnd_toEndOf="@id/etNoteText"
-        app:layout_constraintStart_toStartOf="@id/etNoteText" />
+        app:layout_constraintStart_toStartOf="@id/etNoteText"
+        app:layout_constraintTop_toBottomOf="@id/etNoteText" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -22,10 +22,10 @@
             android:layout_marginBottom="6dp"
             android:fontFamily="@font/comfortaa_bold"
             android:maxLines="2"
-            app:layout_constraintEnd_toStartOf="@id/btnDeleteNote"
             android:textColor="@color/light_white"
             android:textSize="20sp"
             app:layout_constraintBottom_toTopOf="@id/lbNoteText"
+            app:layout_constraintEnd_toStartOf="@id/btnDeleteNote"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             tools:text="Note Title" />
@@ -51,14 +51,14 @@
             android:id="@+id/lbNoteDate"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
             android:fontFamily="@font/comfortaa"
             android:textColor="@color/light_white"
             android:textSize="12sp"
-            android:layout_marginBottom="8dp"
-            app:layout_constraintTop_toBottomOf="@id/lbNoteText"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="@id/lbNoteText"
             app:layout_constraintStart_toStartOf="@id/lbNoteText"
+            app:layout_constraintTop_toBottomOf="@id/lbNoteText"
             tools:text="note date" />
 
         <com.google.android.material.button.MaterialButton
@@ -70,10 +70,10 @@
             android:textStyle="bold"
             app:backgroundTint="@color/light_white"
             app:iconGravity="top"
-            app:layout_constraintTop_toTopOf="@id/tv_note_title"
             app:iconTint="@color/base"
             app:layout_constraintBottom_toTopOf="@id/btnDeleteNote"
             app:layout_constraintStart_toStartOf="@id/btnDeleteNote"
+            app:layout_constraintTop_toTopOf="@id/tv_note_title"
             tools:icon="@drawable/edit_note" />
 
         <com.google.android.material.button.MaterialButton
@@ -88,9 +88,9 @@
             app:backgroundTint="@color/light_white"
             app:iconGravity="top"
             app:iconTint="@color/red"
-            app:layout_constraintTop_toBottomOf="@id/btnEditNote"
-            app:layout_constraintStart_toEndOf="@id/tv_note_title"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/tv_note_title"
+            app:layout_constraintTop_toBottomOf="@id/btnEditNote"
             tools:icon="@drawable/delete" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,20 +1,18 @@
 package com.iti.android_7.presentation.edit_note
 
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
+import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
-import com.iti.android_7.R
 import com.iti.android_7.data.lacal.room.Note
 import com.iti.android_7.data.lacal.room.NoteDAO
 import com.iti.android_7.data.lacal.room.NoteDatabase
 import com.iti.android_7.databinding.FragmentEditNoteBinding
-import com.iti.android_7.presentation.view_note.ViewNotesViewModel
 import com.iti.android_7.utils.DateTimeManager
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.GlobalScope

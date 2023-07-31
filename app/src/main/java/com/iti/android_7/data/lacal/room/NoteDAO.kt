@@ -1,6 +1,5 @@
 package com.iti.android_7.data.lacal.room
 
-import androidx.lifecycle.LiveData
 import androidx.room.*
 
 @Dao

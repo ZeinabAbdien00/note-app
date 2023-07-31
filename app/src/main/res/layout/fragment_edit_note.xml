@@ -23,8 +23,8 @@
     <EditText
         android:id="@+id/et_update_note_title"
         android:layout_width="match_parent"
-        android:layout_marginTop="16dp"
         android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
         android:fontFamily="@font/comfortaa"
         android:hint="@string/title"
         app:layout_constraintStart_toStartOf="parent"
@@ -36,8 +36,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:hint="@string/note"
         android:fontFamily="@font/comfortaa"
+        android:hint="@string/note"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/et_update_note_title" />
 
@@ -51,8 +51,8 @@
         android:textAllCaps="false"
         android:textColor="@color/light_white"
         app:backgroundTint="@color/base"
-        app:layout_constraintTop_toBottomOf="@id/et_update_note_text"
         app:layout_constraintEnd_toEndOf="@id/et_update_note_text"
-        app:layout_constraintStart_toStartOf="@id/et_update_note_text"/>
+        app:layout_constraintStart_toStartOf="@id/et_update_note_text"
+        app:layout_constraintTop_toBottomOf="@id/et_update_note_text" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
